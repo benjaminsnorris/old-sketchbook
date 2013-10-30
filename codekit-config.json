@@ -501,13 +501,13 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/v1-archive\/working-pages\/_logo.kit" : {
+    "\/v1-archive\/working-pages\/_blog-link.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_logo.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/_logo.html",
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_blog-link.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/_blog-link.html",
       "fileType" : 65536
     },
     "\/scss\/style.scss" : {
@@ -533,13 +533,13 @@
       "initialSize" : 210653,
       "fileType" : 4096
     },
-    "\/v1-archive\/working-pages\/_blog-link.kit" : {
+    "\/v1-archive\/working-pages\/_logo.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_blog-link.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/_blog-link.html",
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_logo.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/_logo.html",
       "fileType" : 65536
     },
     "\/img\/startup-2048x1496.png" : {
@@ -605,6 +605,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/img\/Love_lavender.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
+      "initialSize" : 46388,
+      "fileType" : 4096
+    },
     "\/scss\/ie7.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -614,18 +625,6 @@
       "outputStyle" : 3,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/ie7.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/scss\/_sketchbook-contact.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_sketchbook-contact.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_sketchbook-contact.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -640,16 +639,17 @@
       "initialSize" : 21334,
       "fileType" : 4096
     },
-    "\/img\/Love_lavender.jpg" : {
+    "\/scss\/_sketchbook-contact.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
-      "initialSize" : 46388,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/scss\/_sketchbook-contact.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_sketchbook-contact.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -829,15 +829,15 @@
       "initialSize" : 1633,
       "fileType" : 8192
     },
-    "\/v1-archive\/scss\/_inner.scss" : {
+    "\/v1-archive\/scss\/_home-page.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_inner.scss",
+      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_home-page.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_inner.css",
+      "outputAbbreviatedPath" : "\/css\/_home-page.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -862,27 +862,6 @@
       "outputAbbreviatedPath" : "\/v1-archive\/_brains.html",
       "fileType" : 65536
     },
-    "\/v1-archive\/working-pages\/blog.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/blog.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/blog.html",
-      "fileType" : 65536
-    },
-    "\/v1-archive\/scss\/_home-page.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_home-page.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_home-page.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/img\/Taxes-Sketchnotes.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -893,6 +872,27 @@
       "outputAbbreviatedPath" : "\/img\/Taxes-Sketchnotes.jpg",
       "initialSize" : 499531,
       "fileType" : 4096
+    },
+    "\/v1-archive\/scss\/_inner.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_inner.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_inner.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/v1-archive\/working-pages\/blog.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/blog.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/blog.html",
+      "fileType" : 65536
     },
     "\/img\/Sketchnote-Resolutions-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -928,6 +928,15 @@
       "initialSize" : 410713,
       "fileType" : 8192
     },
+    "\/css\/ie7.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/ie7.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/v1-archive\/scss\/_colorbox.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -940,15 +949,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/v1-archive\/working-pages\/_footer.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_footer.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/_footer.html",
-      "fileType" : 65536
-    },
     "\/sketchnotes.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -958,14 +958,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/css\/ie7.css" : {
+    "\/v1-archive\/working-pages\/_footer.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/ie7.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_footer.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/_footer.html",
+      "fileType" : 65536
     },
     "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
