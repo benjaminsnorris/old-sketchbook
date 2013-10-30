@@ -1,0 +1,132 @@
+@mixin transition($property: all, $duration: .3s, $timing: ease-in-out, $delay: 0s) {
+	-webkit-transition: $property $duration $timing $delay;
+	-moz-transition: $property $duration $timing $delay;
+	-o-transition: $property $duration $timing $delay;
+	-ms-transition: $property $duration $timing $delay;
+	transition: $property $duration $timing $delay;  
+}
+
+@mixin transitionDuration($duration) {
+	-webkit-transition-duration: $duration;
+	-moz-transition-duration: $duration;
+	-o-transition-duration: $duration;
+	-ms-transition-duration: $duration;
+	transition-duration: $duration;  
+}
+
+@mixin transitions($values...) {
+	-webkit-transition: $values;
+	-moz-transition: $values;
+	-o-transition: $values;
+	-ms-transition: $values;
+	transition: $values;  
+}
+
+@mixin transform($property) {
+	-webkit-transform: $property;
+	-moz-transform: $property;
+	-o-transform: $property;
+	-ms-transform: $property;
+	transform: $property;  	
+}
+
+@mixin smooth {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+@mixin animate($name, $duration: 2.5s, $timing: linear, $delay: 0s, $iteration: infinite) {
+	-webkit-animation: $name $duration $timing $delay $iteration;
+	-moz-animation: $name $duration $timing $delay $iteration;
+	-o-animation: $name $duration $timing $delay $iteration;
+	-ms-animation: $name $duration $timing $delay $iteration;
+	animation: $name $duration $timing $delay $iteration;
+}
+
+@mixin animateNone {
+	-webkit-animation: none;
+	-moz-animation: none;
+	-o-animation: none;
+	-ms-animation: none;
+	animation: none;
+}
+
+@mixin noSelect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+@mixin boxSizing ($value: border-box) {
+	-webkit-box-sizing: $value;
+	-moz-box-sizing: $value;
+	box-sizing: $value;
+}
+
+@mixin linearGradient($values...) {
+  background-image: -webkit-linear-gradient($values);
+  background-image: -moz-linear-gradient($values);
+  background-image: -ms-linear-gradient($values);
+  background-image: -o-linear-gradient($values);
+}
+@mixin linearGradientUrl($gradient, $url) {
+  background-image: -webkit-linear-gradient($gradient), $url;
+  background-image: -moz-linear-gradient($gradient), $url;
+  background-image: -ms-linear-gradient($gradient), $url;
+  background-image: -o-linear-gradient($gradient), $url;
+}
+
+@mixin twoLinearGradients($first, $second) {
+  background-image: -webkit-linear-gradient($first), -webkit-linear-gradient($second);
+  background-image: -moz-linear-gradient($first), -moz-linear-gradient($second);
+  background-image: -ms-linear-gradient($first), -ms-linear-gradient($second);
+  background-image: -o-linear-gradient($first), -o-linear-gradient($second);
+}
+
+@mixin radialGradient($values...) {
+  background-image: -webkit-radial-gradient($values);
+  background-image: -moz-radial-gradient($values);  
+  background-image: -ms-radial-gradient($values);  
+  background-image: -o-radial-gradient($values); 	
+}
+
+@mixin rotate($values...) {
+	-webkit-transform: rotate($values);
+	-moz-transform: rotate($values);
+	transform: rotate($values);	
+}
+
+@mixin rotateX($values...) {
+	-webkit-transform: rotateX($values);
+	-moz-transform: rotateX($values);
+	transform: rotateX($values);	
+}
+
+@mixin transform($values...) {
+	-webkit-transform: $values;
+	-moz-transform: $values;
+	transform: $values;	
+}
+
+@mixin origin($values...) {
+	-webkit-transform-origin: $values;
+	-moz-transform-origin: $values;
+	transform-origin: $values;
+}
+
+@mixin move($values...) {
+	-webkit-transform: translate($values); /* Safari and Chrome */	
+	-ms-transform: translate($values); /* IE 9 */
+	transform: translate($values);
+}

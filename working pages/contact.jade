@@ -1,0 +1,92 @@
+//- Variables for includes
+pageTitle = "Contact | BSN Design"
+pageClass = "contact"
+
+include _head
+  body
+    #wrapper
+      nav
+        a#menu.icon-menu(href="#") Menu
+        a#sketchnotes.tab.left.icon-sketchnotes(href="/sketchnotes/") Sketchnotes
+        a#infographics.tab.left.icon-infographics(href="/infographics/") Infographics
+        a#design.tab.left.icon-design(href="/design/") Design
+        a#blog(href="/blog/") 
+          span.link.icon-blog Blog
+        a#contact.current.icon-contact(href="/contact/") Contact
+      section#book.cf
+        section#left.page
+          header
+            a#home(href="/") Home
+            h1 Contact
+          .main
+            .thanks
+              h2 Thank you!
+              iframe(name="hidden_iframe", id="hidden_iframe", style="display:none;", onload)
+              a.another.icon-pen(href="#") Write another message
+            #shadow.envelope
+            #envelope
+              .envelope.flap
+              form#contact-form.letter(action="https://docs.google.com/a/benjaminsnorris.com/forms/d/1rRFTuxCsV7Y5qHoFhg-2GjzwAZ8C5zYExEuCPqXXScE/formResponse", method="post", target="hidden_iframe", onsubmit="send()")
+                p Ben,
+                p This is <input type="text" name="entry.811388919" value="" class="input box" id="entry_811388919" dir="auto" aria-required="true" required="required" placeholder="your name"></input>, and I&rsquo;d like to chat.
+                p You can reach me at <input type="email" name="entry.1431033147" value="" class="input email box" id="entry_1431033147" dir="auto" aria-required="true" required="required"placeholder="your email"></input>.
+                p Here&rsquo;s what I&rsquo;m thinking: <textarea name="entry.1248814148" rows="8" cols="0" class="input message" id="entry_1248814148" dir="auto" aria-required="true" required="required"placeholder="your message"></textarea>
+                button.send.icon-send Send
+              .envelope.back
+        section#right.page
+          #contact-card
+          .bio.gallery
+            a.photo(href="/img/bsn-design-ben-norris.jpg")
+              img(src="/img/bsn-design-ben-norris-thumb.jpg", alt="BSN Design Owner Ben Norris")
+            p.blurb BSN Design is a sketchnote and design one-man band owned and operated by Ben Norris: a traveling reading piano-playing Mormon husband and father
+          .social
+            h2 Stalk Me Here
+            a.twitter(href="http://twitter.com/bsndesign", target="_blank")
+            a.linkedin(href="http://www.linkedin.com/in/benjaminsnorris", target="_blank")
+            a.flickr(href="http://www.flickr.com/benjaminsnorris", target="_blank")
+    include _footer
+    script.
+      $(function() {
+        var envelope = $("#envelope, #shadow"),
+            letter = $('.letter'),
+            left = $('#left'),
+            timeout,
+            timeout2;
+        $(".another").click(function(e) {
+          e.preventDefault();
+          $("#contact-form").each(function (){
+            this.reset();
+          });
+          if($('html').hasClass('sketchbook')) {
+            envelope.show().addClass("off");
+            timeout = setTimeout(function() {
+              envelope.removeClass("off").addClass("reset");
+            }, 500);
+            timeout2 = setTimeout(function() {
+              envelope.removeClass("reset");
+            }, 2000);
+            return false;        
+          } else {
+            left.removeClass('sent');
+          }
+        });
+      });
+      function send() {
+        var envelope = $("#envelope, #shadow"),
+            letter = $('.letter'),
+            left = $('#left'),
+            timeout,
+            timeout2;
+        if($('html').hasClass('sketchbook')) {
+          letter.addClass("drop");
+          timeout = setTimeout(function() {
+            envelope.addClass("sent");
+          }, 1500);
+          timeout2 = setTimeout(function() {
+            letter.removeClass("drop");
+            envelope.removeClass("sent").hide();
+          }, 5000);
+        } else {
+          left.addClass('sent');
+        }
+      }

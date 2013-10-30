@@ -1,0 +1,47 @@
+.sketchbook.blog {
+  nav {
+    display: none;
+  }
+  //Legal Paper 8.5" x 14" (816px x 1344px)
+  #blog-paper {
+    // width: 51rem;//816px;
+    // height: 84rem;//1344px;
+    /* Same size as book for now */
+    width: 30rem;//480px
+    height: 50rem;//800px 
+    position: relative;
+    margin: 1em auto;
+    padding: 1em 2em;
+    border-radius: .1875rem;//3px;
+    background-color: $legal;
+    @include background-image(linear-gradient($legal-line 1px, transparent 1px));
+    background-size: 100% 1.2em;
+    background-position: 0 .6em;
+    background-origin: content-box;
+    box-shadow: 0 .25rem .625rem rgba(0,0,0,.4);//4px, 10px
+    &:before, &:after {
+      content: "";
+      border-radius: .1875rem;//3px;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      background-color: $legal;
+      @include background-image(linear-gradient($legal-line 1px, transparent 1px));
+      background-size: 100% 1.2em;
+      background-position: 0 .6em;
+      background-origin: content-box;
+      box-shadow: 0 .25rem .625rem rgba(0,0,0,.4);//4px, 10px
+    }
+    &:before {
+      top: .25rem;//4px
+      z-index: -1;
+      @include rotate(2deg);
+    }
+    &:after {
+      top: .5rem;//8px;
+      z-index: -2;
+      @include rotate(-2deg);
+    }
+  }
+}

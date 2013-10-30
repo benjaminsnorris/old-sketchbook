@@ -1,0 +1,43 @@
+/* * * * * * * * *
+Width: 428px
+# Columns: 12
+Column width: 21px
+Gutter: 16px
+* * * * * * * * */
+.grid_1 { width: 1.3125rem; }//21px
+.grid_2 { width: 3.625rem; }//58px
+.grid_3 { width: 5.9375rem; }//95px
+.grid_4 { width: 8.25rem; }//132px
+.grid_5 { width: 10.5625rem; }//169px
+.grid_6 { width: 12.875rem; }//206px
+.grid_7 { width: 15.1875rem; }//243px
+.grid_8 { width: 17.5rem; }//280px
+.grid_9 { width: 19.8125rem; }//317px
+.grid_10 { width: 22.125rem; }//354px
+.grid_11 { width: 24.4375rem; }//391px
+.grid_12 { width: 26.75rem; }//428px
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	margin: 0 1rem 1.5rem 0; //16px
+	float: left;
+	display: block;
+	position: relative;
+}
+
+.first {
+	clear: both;
+}
+.last {
+	margin-right: 0;
+}

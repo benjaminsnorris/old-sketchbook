@@ -1,0 +1,52 @@
+*, *:before, *:after {
+  @include box-sizing('border-box');  
+}
+* { margin: 0; }
+.hidden {
+  position: absolute;
+  opacity: 0;
+}
+.one-up {
+  width: 100%;
+}
+.two-up {
+  width: 50%;
+}
+.three-up {
+  width: 33.3%;
+}
+.social {
+  text-align: center;
+  a {
+    background: transparent url(/img/twitter.svg) no-repeat center center;
+    background-size: contain;
+    &.linkedin {
+      background-image: url(/img/linkedin.svg);
+    }
+    &.flickr {
+      background-image: url(/img/flickr.svg);
+    }
+  }
+}
+#blog-paper {
+  text-align: center;
+  #blog-logo {
+    width: 10em;
+    height: 10.5em;
+    width: 5rem;
+    height: 8rem;
+    background: transparent url(/img/logo.svg) no-repeat center center;
+    background-size: contain;
+    text-decoration: none;
+    text-indent: 100%;
+    display: inline-block;
+    margin-top: 2em;
+  }
+  h1 { 
+    display: inline-block;
+    margin-left: .5em;
+  }
+  h2 {
+    margin-top: 2em;
+  }
+}

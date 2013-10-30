@@ -1,0 +1,6 @@
+/* line 1, ../scss/ie.scss */
+.flat.no-svg #book {
+  clear: left; }
+  /* line 4, ../scss/ie.scss */
+  .flat.no-svg #book #logo {
+    margin: 0 auto; }

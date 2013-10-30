@@ -1,0 +1,48 @@
+html, body { height: 100%; }
+.sketchbook #wrapper, .flat #wrapper {
+  min-height: 100%;
+  margin-bottom: -5.25em;
+  &:after {
+    content: '';
+    display: block;
+    height: 5.25em;
+  }
+}
+footer, .footer {
+  height: 5.25em;
+  position: relative;
+  z-index: 10;
+  #toggle {
+    display: inline-block;
+    float: right;
+    padding: 1em 2em;
+    margin: 1em;
+    color: $text;
+    text-decoration: none;
+    font-family: $flat-headline;
+    background-color: lighten($blue, 30%);
+    &:hover {
+      color: white;
+      background-color: $red; 
+    }
+    .sketchbook & {
+      float: left;
+      margin: 1rem;
+      color: white;
+      font-family: 'Short Stack', sans-serif;
+      background-color: $elastic;
+      border-radius: 1.25rem;
+      box-shadow: inset .1rem .1rem .25rem hsla(0,0%,100%,.2), 0 0 1rem rgba(0,0,0,0.2);
+      opacity: .5;
+      &:hover {
+        box-shadow: inset .1rem .1rem .25rem hsla(0,0%,100%,.2), 0 0 2rem $elastic;
+        opacity: 1;
+      }
+      &:before { content: "\e006"; }
+    }
+  }
+  @media screen and (max-width:31em) {
+    padding-top: .5em;
+    #toggle { padding: .75em; }
+  }
+}

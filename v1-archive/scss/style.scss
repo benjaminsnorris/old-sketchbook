@@ -1,0 +1,307 @@
+@import "normalize";
+@import "vars";
+@import "mixins";
+
+@import "containers";
+@import "home-page";
+@import "inner";
+@import "grid";
+@import "contact";
+@import "colorbox";
+body {
+	font-size: 1em;
+}
+h1 {
+	font-family: 'Walter Turncoat', sans-serif;
+	font-size: 2.5em;
+	font-weight: normal;
+}
+h2 {
+	font-family: 'Walter Turncoat', sans-serif;
+	font-size: 2em;
+	margin: 0;
+	font-weight: normal;
+}
+h3 {
+	font-family: 'Walter Turncoat', sans-serif;
+	font-size: 1.5em;
+	margin: 0;
+	font-weight: normal;
+}
+p, input, textarea {
+	font-family: 'Short Stack', sans-serif;
+	font-size: 1em;
+	margin: 0;
+	line-height: 1.3em;
+}
+a {
+	font-family: 'Short Stack', sans-serif;
+	text-decoration: none;
+	color: $cover;
+}
+button {
+	font-family: 'Short Stack', sans-serif;	
+}
+object, img {
+	max-width: 100%;
+}
+div {
+	@include boxSizing();
+}
+.cover {
+	background-color: $cover;
+	background-image: $noise;
+	border-radius: .3125rem 1.875rem 1.875rem .3125rem;		//5px / 16px 	30px / 16px
+	box-shadow: inset 0px 0px .625rem rgba(255,255,255,0.6), .3125rem .3125rem .625rem rgba(0,0,0,.4), .625rem .625rem 1.875rem rgba(0,0,0,.2);	
+}
+#elastic-verytop {
+	width: 1.5625rem;//25px
+	height: .1875rem;//3px;
+	position: absolute;
+	top: -.1875rem;//3px;
+	right: 4.0625rem;//65px		
+	border-radius: .1875rem .1875rem 0px 0px;		//3px / 16px
+}
+#elastic-top-box {
+	width: 1.875rem;//30px
+	height: .625rem;//10px
+	position: absolute;
+	right: 3.75rem;//60px
+	overflow: hidden;
+}
+#elastic-top {
+	width: 1.4375rem;//23px
+	height: 1.5625rem;//25px
+	position: absolute;
+	background-size: 25% 100%;
+	@include rotate(-25deg);
+	@include origin(0% 0%);
+}
+#elastic-main {
+	width: 1.5625rem;//25px
+	height: 49.6875rem;//795px
+	position: absolute;
+	top: .625rem;//10px
+	right: 3.75rem;//60px
+	border-radius: 0px 0px .1875rem .1875rem;		//3px / 16px
+}
+#elastic-inner {
+	width: 1.5625rem;//25px
+	height: 49.875rem;//798px
+	position: absolute;
+	top: -3px;
+	right: 3.75rem;//60px;
+	border-radius: .1875rem;		//3px / 16px
+}
+.elastic {
+	background-color: $elastic;
+	@include linearGradient(left, hsla(0,0%,100%,.2) 0%, hsla(0,0%,100%,0) 40%, hsla(0,0%,0%,0) 60%, hsla(0,0%,0%,.2) 100%);
+	background-image: linear-gradient(to right, hsla(0,0%,100%,.2) 0%, hsla(0,0%,100%,0) 40%, hsla(0,0%,0%,0) 60%, hsla(0,0%,0%,.2) 100%);
+	background-size: 20% 100%;
+	box-shadow: .125rem 0px .3125rem rgba(0,0,0,.2);		//2px / 16px	5px / 16px
+}
+.nav {
+	@include boxSizing;
+	position: absolute;
+	right: -6.625rem;//-106px
+	width: 12.5rem;//200px
+	height: 4.375rem;//70px
+	padding-top: .9375rem;//15px
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Walter Turncoat', sans-serif;
+	font-size: 1em;
+	@include rotate(90deg);
+	border-radius: 1.25rem 1.25rem 0px 0px;			//20px / 16px
+	background-color: $paper;
+	box-shadow: .3125rem -.3125rem .625rem rgba(0,0,0,.2), inset 0px 0px .125rem rgba(255,255,255,.5), inset 0px 0px 1.875rem $paper-dark;
+	@include transition($duration: .1s);
+	&:hover {
+		right: -7.25rem;//116px
+	}
+}
+.nav.left {
+	left: -6.625rem;//-106px
+	@include rotate(-90deg);
+	&:not(.current):hover {
+		left: -7.25rem;//116px
+	}
+	&.current {
+		cursor: default;
+		height: 3.1875rem;//51px
+		left: -7.8125rem;//-125px
+	}
+}
+#sketchnotes {
+	top: 7.5rem;//120px
+	&.current {
+		top: 7.75rem;//124px
+	}
+}
+#infographics {
+	top: 23.125rem;//370px
+	&.current {
+		top: 23.375rem;//374px
+	}
+}
+#design {
+	top: 38.75rem;//620px
+	&.current {
+		top: 39.0625rem;//625px
+	}
+}
+#home-nav .back-one {
+	@include linearGradient(bottom, hsla(0,0%,0%,.4) 0%, hsla(0,0%,0%,0) 55%);
+	background-image: linear-gradient(to top, hsla(0,0%,0%,.4) 0%, hsla(0,0%,0%,0) 55%);
+}
+#home-nav .back-two {
+	@include linearGradient(bottom, hsla(0,0%,0%,.4) 0%, hsla(0,0%,0%,0) 70%);
+	background-image: linear-gradient(to top, hsla(0,0%,0%,.4) 0%, hsla(0,0%,0%,0) 70%);
+}
+//Business Card 3.5" x 2" (336px x 192px)
+.card {
+	width: 21rem;//336px
+	height: 12rem;//192px
+	background-color: $card;
+	// background-image: $noise;
+	position: absolute;
+	top: -.9375rem;//-15px
+	right: 3.125rem;//50px
+	@include rotate(10deg);
+	box-shadow: .3125rem -.3125rem 20px rgba(0,0,0,.2);		//5px / 16px
+}
+#card {
+	@include transition($duration: .2s);
+	&:hover{
+		top: -1.375rem;//-22px
+		right: 4.0625rem;//65px
+	}
+}
+#contact-page-card .card-info {
+	height: 100%;
+}
+#contact-line {
+	margin: .5rem 0px 0px .625rem;//8px,10px
+	font-family: 'Walter Turncoat', serif;
+	text-transform: uppercase;
+	font-size: 1.5em;//24px / 16px;
+}
+#stack {
+	position: absolute;
+	right: -1rem;//16px
+	top: 1.875rem;//30px
+	width: 25.5rem;//408px
+	height: 42rem;//672px
+	z-index: 0;
+	@include transition($duration: .2s);
+	@include rotate(5deg);
+	&.blog {
+		@include rotate(0deg);
+		margin-top: 3.75rem;//60px
+	}
+	&:hover {
+		right: -1.25rem;//20px
+		top: 1.25rem;//20px
+	}
+}
+.home #stack {
+	@include rotate(-5deg);
+	top: 2.5rem;//40px
+	left: -1.125rem;//18px
+	right: auto;
+	&:hover {
+		left: -1.5rem;//24px
+		top: 1.875rem;//30px
+	}
+}
+//Legal Paper 8.5" x 14" (816px x 1344px)
+#blog-paper {
+	// width: 51rem;//816px;
+	// height: 84rem;//1344px;
+	/* Same size as book for now */
+	width: 30rem;//480px
+	height: 50rem;//800px	
+	position: relative;
+	margin: 1em auto;
+	padding: 1em 2em;
+	border-radius: .1875rem;//3px;
+	background-color: $legal;
+	@include linearGradient($legal-line 1px, transparent 1px);
+	background-size: 100% 1.2em;
+	background-position: 0 .6em;
+	background-origin: content-box;
+	box-shadow: 0 .25rem .625rem rgba(0,0,0,.4);//4px, 10px
+	&:before, &:after {
+		content: "";
+		border-radius: .1875rem;//3px;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		background-color: $legal;
+		@include linearGradient($legal-line 1px, transparent 1px);
+		background-size: 100% 1.2em;
+		background-position: 0 .6em;
+		background-origin: content-box;
+	    @include boxSizing;
+		box-shadow: 0 .25rem .625rem rgba(0,0,0,.4);//4px, 10px
+		@include transition($duration: .1s);
+	}
+	&:before {
+		top: .25rem;//4px
+		z-index: -1;
+		@include rotate(2deg);
+	}
+	&:after {
+		top: .5rem;//8px;
+		z-index: -2;
+		@include rotate(-2deg);
+	}
+}
+.blog #book {
+	position: absolute;
+	z-index: -3;
+	left: -22.25rem;//356px;
+}
+a#blog-paper {
+	position: absolute;
+	width: 25.5rem;//408px
+	height: 42rem;//672px
+	margin: 0;
+	padding: 0;
+}
+#blog-link {
+	font-family: 'Walter Turncoat', serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	position: absolute;
+	right: 2.8125rem;//45px
+	top: 3.125rem;//50px
+	margin: 0;
+	@include rotate(90deg);
+	@include origin(100% 100%);
+}
+.home #blog-link {
+	left: 2.8125rem;//45px
+	top: 1.25rem;//20px
+	@include rotate(90deg);
+	@include origin(0% 0%);
+}
+.blog-logo {
+	margin-top: .625rem;//10px;
+	width: 5rem;//80px;
+	display: inline-block;
+}
+.blog h1 {
+	display: inline-block;
+	font-size: 3em;
+	text-align: center;
+}
+.blog h2 {
+	margin-top: 9.5rem;
+	text-align: center;
+}
+.hidden {
+	position: absolute;
+	opacity: 0;
+}

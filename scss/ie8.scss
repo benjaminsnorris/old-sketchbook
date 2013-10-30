@@ -1,0 +1,12 @@
+@import "vars";
+
+html.flat {
+  background-color: lighten($blue, 45%);
+}
+.flat #wrapper {
+  width: 62em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hidden { display: none; }
+.flat.contact #book #left .main { display: none; }

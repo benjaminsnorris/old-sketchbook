@@ -1,0 +1,32 @@
+@font-face {
+  font-family: bsn-icons;
+  src: url("http://benjaminsnorris.com/fonts/bsn-icons.eot");
+  src: url("http://benjaminsnorris.com/fonts/bsn-icons.eot?#iefix") format('embedded-opentype'),
+       url("http://benjaminsnorris.com/fonts/bsn-icons.svg#bsn-icons") format('svg'), 
+       url("http://benjaminsnorris.com/fonts/bsn-icons.woff") format('woff'), 
+       url("http://benjaminsnorris.com/fonts/bsn-icons.ttf") format('truetype');
+  /* This should make the font use the normal weight for bold as well */
+  font-weight: bold;
+  font-style: normal;
+}
+
+.icon-menu:before { content: "\e000"; }
+.icon-sketchnotes:before { content: "\e001"; }
+.icon-infographics:before { content: "\e002"; }
+.icon-design:before { content: "\e003"; }
+.icon-contact:before { content: "\e004"; }
+.icon-blog:before { content: "\e005"; }
+.icon-flat:before { content: "\e006"; }
+.icon-sketchbook:before { content: "\e007"; }
+.icon-send:before { content: "\e008"; }
+.icon-pen:before { content: "\e009"; }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  // display:inline-block;
+  position: relative;
+  &:before {
+    font-family: bsn-icons;
+    margin: 0 .5em 0 0;
+  }
+}

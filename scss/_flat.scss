@@ -1,0 +1,71 @@
+:root.flat {
+  background-color: lighten($blue, 45%);
+}
+.flat nav {
+  display: table;
+  padding: .25em;
+  margin: 0 auto;
+  a {
+    float: left;
+    color: $text;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $flat-headline;
+    padding: 1em 2em;
+    margin: .5em;
+    background-color: $blue;
+    &:hover {
+      color: white;
+      background-color: darken($blue, 10%);
+    }
+    &#menu {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 60em) {
+  .flat nav a#menu { display: block; }
+  .flat nav:not(.expanded) a {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 4em;
+    padding: 1em 1.5em;
+    &:before, [class*="icon-"]:before {
+      text-indent: 0;
+      float: left;
+      margin-right: 0;
+    }
+  }
+}
+@media screen and (max-width: 31em) {
+  .flat nav:not(.sketchbook) a {
+    margin: .25em;
+    padding: .75em;
+  }
+  .flat nav:not(.expanded) a {
+    width: 2.5em;
+  }
+}
+.flat #book {
+  max-width: 45em;
+  margin: 1em auto 0;  
+}
+.flat {
+  h1 {
+    font-family: $flat-headline;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0;
+    display: inline-block;
+  }
+  h2 {
+    font-family: $flat-headline;
+    margin: 0 0 .5em;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  p, a {
+    font-family: $flat-text;
+  }  
+}

@@ -1,0 +1,30 @@
+.flat.no-svg {
+  #blog-paper #blog-logo {
+    background-image: url(/img/home.png);    
+  }
+  #book {
+    #logo {
+      background-image: url(/img/logo.png);
+    }
+    .page header #home {
+      background-image: url(/img/home.png);
+    }
+    #right {
+      #contact-card {
+        background-image: url(/img/card.png);
+      }
+    }
+    .social a {
+      background-image: url(/img/twitter.png);
+      &.linkedin {
+        background-image: url(/img/linkedin.png);
+      }
+      &.flickr {
+        background-image: url(/img/flickr.png);
+      }
+    }
+  }
+}
+.no-cssgradients footer #toggle {
+  display: none;
+}

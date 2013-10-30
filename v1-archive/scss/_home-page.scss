@@ -1,0 +1,37 @@
+#home-logo {
+	padding: 1.875rem;//30px
+	border-radius: 1.25rem;//20px
+	background-color: $sticker;
+	@include boxSizing();
+}
+#paper-front {
+	width: 29.0625rem;//465px
+	height: 49.5rem;//792px
+	top: .3125rem;//5px
+	left: .375rem;//6px
+	border-radius: 0px 1.25rem 1.25rem 0px;		//20px / 16px
+}
+//Moleskine Large 5" x 8.25" (480px x 792px)
+//Moleskine Pocket 3.5" x 5.5" (336px x 528px)
+#front-cover {
+	width: 30rem;//480px;
+	height: 49.5rem;//792px;
+	padding: 7.5rem;//120px
+	position: absolute;
+	top: .625rem;//10px
+	left: 0px;
+	border-top-left-radius: 0;
+	p {
+		margin-top: 3rem;
+		// color: #030303;
+		color: #1a1a1a;
+		font-size: 1.7em;
+		text-align: center;
+		text-shadow: 0 1px 1px hsla(0, 0%, 100%, .3);
+	}
+}
+#back-cover {
+	width: 29.6875rem;//475px;
+	height: 49.5rem;//792px;
+	position: absolute;
+}
