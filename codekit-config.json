@@ -276,15 +276,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/print.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/print.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/v1-archive\/working-pages\/design.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -293,6 +284,15 @@
       "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/design.kit",
       "outputAbbreviatedPath" : "\/v1-archive\/design.html",
       "fileType" : 65536
+    },
+    "\/css\/print.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/print.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/img\/startup-640x1096.png" : {
       "ignoreWasSetByUser" : 0,
@@ -489,6 +489,15 @@
       "outputAbbreviatedPath" : "\/design\/index.html",
       "fileType" : 512
     },
+    "\/v1-archive\/working-pages\/_logo.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_logo.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/_logo.html",
+      "fileType" : 65536
+    },
     "\/scss\/_sketchbook-home.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -500,15 +509,6 @@
       "outputAbbreviatedPath" : "\/css\/_sketchbook-home.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/v1-archive\/working-pages\/_blog-link.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_blog-link.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/_blog-link.html",
-      "fileType" : 65536
     },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -533,13 +533,13 @@
       "initialSize" : 210653,
       "fileType" : 4096
     },
-    "\/v1-archive\/working-pages\/_logo.kit" : {
+    "\/v1-archive\/working-pages\/_blog-link.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_logo.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/_logo.html",
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_blog-link.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/_blog-link.html",
       "fileType" : 65536
     },
     "\/img\/startup-2048x1496.png" : {
@@ -862,6 +862,15 @@
       "outputAbbreviatedPath" : "\/v1-archive\/_brains.html",
       "fileType" : 65536
     },
+    "\/v1-archive\/working-pages\/blog.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/blog.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/blog.html",
+      "fileType" : 65536
+    },
     "\/img\/Taxes-Sketchnotes.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -884,15 +893,6 @@
       "outputAbbreviatedPath" : "\/css\/_inner.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/v1-archive\/working-pages\/blog.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/blog.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/blog.html",
-      "fileType" : 65536
     },
     "\/img\/Sketchnote-Resolutions-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1274,16 +1274,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/working pages\/home.jade" : {
+    "\/img\/GetSatisfaction-Conference-2013-3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/working pages\/home.jade",
-      "outputStyle" : 1,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/index.html",
-      "fileType" : 512
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/GetSatisfaction-Conference-2013-3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/GetSatisfaction-Conference-2013-3.jpg",
+      "initialSize" : 369334,
+      "fileType" : 4096
     },
     "\/js\/jquery-1.10.2.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1296,16 +1296,16 @@
       "outputAbbreviatedPath" : "\/js\/jquery-1.10.2.min-ck.js",
       "fileType" : 64
     },
-    "\/img\/GetSatisfaction-Conference-2013-3.jpg" : {
+    "\/working pages\/home.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/GetSatisfaction-Conference-2013-3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/GetSatisfaction-Conference-2013-3.jpg",
-      "initialSize" : 369334,
-      "fileType" : 4096
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/working pages\/home.jade",
+      "outputStyle" : 1,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/index.html",
+      "fileType" : 512
     },
     "\/img\/wood.jpg" : {
       "ignoreWasSetByUser" : 0,
