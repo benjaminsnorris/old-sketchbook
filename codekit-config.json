@@ -255,14 +255,14 @@
       "outputAbbreviatedPath" : "\/v1-archive\/infographics.html",
       "fileType" : 65536
     },
-    "\/contact\/index.html" : {
+    "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/contact\/index.html",
+      "inputAbbreviatedPath" : "\/css\/print.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/v1-archive\/scss\/_vars.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -276,6 +276,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/contact\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/contact\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/v1-archive\/working-pages\/design.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -284,15 +293,6 @@
       "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/design.kit",
       "outputAbbreviatedPath" : "\/v1-archive\/design.html",
       "fileType" : 65536
-    },
-    "\/css\/print.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/print.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/img\/startup-640x1096.png" : {
       "ignoreWasSetByUser" : 0,
@@ -498,17 +498,14 @@
       "outputAbbreviatedPath" : "\/v1-archive\/_logo.html",
       "fileType" : 65536
     },
-    "\/scss\/_sketchbook-home.scss" : {
+    "\/v1-archive\/working-pages\/_blog-link.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_sketchbook-home.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_sketchbook-home.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_blog-link.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/_blog-link.html",
+      "fileType" : 65536
     },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -533,14 +530,17 @@
       "initialSize" : 210653,
       "fileType" : 4096
     },
-    "\/v1-archive\/working-pages\/_blog-link.kit" : {
+    "\/scss\/_sketchbook-home.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_blog-link.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/_blog-link.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/scss\/_sketchbook-home.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_sketchbook-home.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/startup-2048x1496.png" : {
       "ignoreWasSetByUser" : 0,
@@ -742,12 +742,12 @@
       "initialSize" : 33559,
       "fileType" : 8192
     },
-    "\/error.html" : {
+    "\/infographics\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/error.html",
+      "inputAbbreviatedPath" : "\/infographics\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -782,12 +782,12 @@
       "initialSize" : 2190,
       "fileType" : 8192
     },
-    "\/infographics\/index.html" : {
+    "\/error.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/infographics\/index.html",
+      "inputAbbreviatedPath" : "\/error.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -829,15 +829,15 @@
       "initialSize" : 1633,
       "fileType" : 8192
     },
-    "\/v1-archive\/scss\/_home-page.scss" : {
+    "\/v1-archive\/scss\/_inner.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_home-page.scss",
+      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_inner.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_home-page.css",
+      "outputAbbreviatedPath" : "\/css\/_inner.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -850,6 +850,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_vars.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/v1-archive\/scss\/_home-page.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_home-page.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_home-page.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -881,18 +893,6 @@
       "outputAbbreviatedPath" : "\/img\/Taxes-Sketchnotes.jpg",
       "initialSize" : 499531,
       "fileType" : 4096
-    },
-    "\/v1-archive\/scss\/_inner.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/scss\/_inner.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_inner.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/img\/Sketchnote-Resolutions-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1010,17 +1010,6 @@
       "initialSize" : 49945,
       "fileType" : 4096
     },
-    "\/working pages\/sketchnotes.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/working pages\/sketchnotes.jade",
-      "outputStyle" : 1,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/sketchnotes\/index.html",
-      "fileType" : 512
-    },
     "\/img\/home.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1063,6 +1052,17 @@
       "outputAbbreviatedPath" : "\/css\/_sketchbook-inner.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/working pages\/sketchnotes.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/working pages\/sketchnotes.jade",
+      "outputStyle" : 1,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/sketchnotes\/index.html",
+      "fileType" : 512
     },
     "\/img\/Infographic-Delaware.jpg" : {
       "ignoreWasSetByUser" : 0,
