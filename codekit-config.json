@@ -305,6 +305,15 @@
       "initialSize" : 12805,
       "fileType" : 8192
     },
+    "\/css\/ie8.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/ie8.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/scss\/_sketchbook-blog.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -327,15 +336,6 @@
       "outputAbbreviatedPath" : "\/img\/Shower-Invitation-thumb.jpg",
       "initialSize" : 36426,
       "fileType" : 4096
-    },
-    "\/css\/ie8.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/ie8.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/working pages\/error.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -402,6 +402,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/v1-archive\/working-pages\/sketchnotes.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/sketchnotes.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/sketchnotes.html",
+      "fileType" : 65536
+    },
     "\/scss\/_flat-inner.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -413,15 +422,6 @@
       "outputAbbreviatedPath" : "\/css\/_flat-inner.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/v1-archive\/working-pages\/sketchnotes.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/sketchnotes.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/sketchnotes.html",
-      "fileType" : 65536
     },
     "\/img\/Shop-Talk-Sketchnotes-10-Oct-2013-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -489,15 +489,6 @@
       "outputAbbreviatedPath" : "\/design\/index.html",
       "fileType" : 512
     },
-    "\/v1-archive\/working-pages\/_logo.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_logo.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/_logo.html",
-      "fileType" : 65536
-    },
     "\/scss\/_sketchbook-home.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -509,6 +500,15 @@
       "outputAbbreviatedPath" : "\/css\/_sketchbook-home.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/v1-archive\/working-pages\/_logo.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_logo.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/_logo.html",
+      "fileType" : 65536
     },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -605,17 +605,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/Love_lavender.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
-      "initialSize" : 46388,
-      "fileType" : 4096
-    },
     "\/scss\/ie7.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -625,6 +614,18 @@
       "outputStyle" : 3,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/ie7.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/_sketchbook-contact.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_sketchbook-contact.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_sketchbook-contact.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -639,17 +640,16 @@
       "initialSize" : 21334,
       "fileType" : 4096
     },
-    "\/scss\/_sketchbook-contact.scss" : {
+    "\/img\/Love_lavender.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_sketchbook-contact.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_sketchbook-contact.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
+      "initialSize" : 46388,
+      "fileType" : 4096
     },
     "\/scss\/print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -760,16 +760,14 @@
       "outputAbbreviatedPath" : "\/v1-archive\/index.html",
       "fileType" : 65536
     },
-    "\/img\/design-funnel.jpg" : {
+    "\/infographics\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/design-funnel.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/design-funnel.jpg",
-      "initialSize" : 71660,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/infographics\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/linkedin.png" : {
       "ignoreWasSetByUser" : 0,
@@ -782,14 +780,16 @@
       "initialSize" : 2190,
       "fileType" : 8192
     },
-    "\/infographics\/index.html" : {
+    "\/img\/design-funnel.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/infographics\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/design-funnel.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/design-funnel.jpg",
+      "initialSize" : 71660,
+      "fileType" : 4096
     },
     "\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
@@ -949,15 +949,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/sketchnotes.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sketchnotes.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/v1-archive\/working-pages\/_footer.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -966,6 +957,15 @@
       "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/_footer.kit",
       "outputAbbreviatedPath" : "\/v1-archive\/_footer.html",
       "fileType" : 65536
+    },
+    "\/sketchnotes.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sketchnotes.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
@@ -988,17 +988,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/_sketchbook-inner.scss" : {
+    "\/img\/twitter.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_sketchbook-inner.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_sketchbook-inner.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/twitter.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/twitter.png",
+      "initialSize" : 1815,
+      "fileType" : 8192
     },
     "\/img\/sketchnotes-next-thing-now-jan-2013-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1033,15 +1032,6 @@
       "initialSize" : 65803,
       "fileType" : 8192
     },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/Shower-Invitation.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1053,16 +1043,26 @@
       "initialSize" : 192682,
       "fileType" : 4096
     },
-    "\/img\/twitter.png" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/twitter.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/twitter.png",
-      "initialSize" : 1815,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/scss\/_sketchbook-inner.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_sketchbook-inner.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_sketchbook-inner.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/Infographic-Delaware.jpg" : {
       "ignoreWasSetByUser" : 0,
