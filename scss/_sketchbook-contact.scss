@@ -221,19 +221,8 @@
 		left: 50%;
 		margin-left: -9rem;
 		bottom: 1rem;
-		text-decoration: none;
 		padding: 1rem 0;
 		width: 18rem;
-		color: #FFF;
-		text-align: center;
-		background-color: $elastic;
-	    box-shadow: inset .1rem .1rem .25rem hsla(0,0%,100%,.2), 0 0 1rem rgba(0,0,0,0.2);
-		border-radius: .75rem;
-		@include single-transition($duration:.3s);
-		&:hover {
-			box-shadow: 0 0 2rem $elastic;
-		}
-    &:before { display: none; }
 	}
 }
 .sketchbook #contact-card {

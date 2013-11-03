@@ -79,15 +79,6 @@
       "initialSize" : 76669,
       "fileType" : 4096
     },
-    "\/contact.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/contact.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/noise.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -98,6 +89,15 @@
       "outputAbbreviatedPath" : "\/img\/noise.png",
       "initialSize" : 10458,
       "fileType" : 8192
+    },
+    "\/contact.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/contact.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/v1-archive\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,
@@ -402,15 +402,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/v1-archive\/working-pages\/sketchnotes.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/sketchnotes.kit",
-      "outputAbbreviatedPath" : "\/v1-archive\/sketchnotes.html",
-      "fileType" : 65536
-    },
     "\/scss\/_flat-inner.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -422,6 +413,15 @@
       "outputAbbreviatedPath" : "\/css\/_flat-inner.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/v1-archive\/working-pages\/sketchnotes.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/v1-archive\/working-pages\/sketchnotes.kit",
+      "outputAbbreviatedPath" : "\/v1-archive\/sketchnotes.html",
+      "fileType" : 65536
     },
     "\/img\/Shop-Talk-Sketchnotes-10-Oct-2013-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -605,6 +605,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/img\/Love_lavender.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
+      "initialSize" : 46388,
+      "fileType" : 4096
+    },
     "\/scss\/ie7.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -614,18 +625,6 @@
       "outputStyle" : 3,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/ie7.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/scss\/_sketchbook-contact.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_sketchbook-contact.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_sketchbook-contact.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -640,16 +639,17 @@
       "initialSize" : 21334,
       "fileType" : 4096
     },
-    "\/img\/Love_lavender.jpg" : {
+    "\/scss\/_sketchbook-contact.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/Love_lavender.jpg",
-      "initialSize" : 46388,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/scss\/_sketchbook-contact.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_sketchbook-contact.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -760,14 +760,16 @@
       "outputAbbreviatedPath" : "\/v1-archive\/index.html",
       "fileType" : 65536
     },
-    "\/infographics\/index.html" : {
+    "\/img\/design-funnel.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/infographics\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/design-funnel.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/design-funnel.jpg",
+      "initialSize" : 71660,
+      "fileType" : 4096
     },
     "\/img\/linkedin.png" : {
       "ignoreWasSetByUser" : 0,
@@ -780,16 +782,14 @@
       "initialSize" : 2190,
       "fileType" : 8192
     },
-    "\/img\/design-funnel.jpg" : {
+    "\/infographics\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/design-funnel.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/design-funnel.jpg",
-      "initialSize" : 71660,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/infographics\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1240,17 +1240,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 32768
     },
-    "\/img\/Be-Good-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/Be-Good-thumb.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/Be-Good-thumb.jpg",
-      "initialSize" : 34410,
-      "fileType" : 4096
-    },
     "\/js\/modernizr.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1261,6 +1250,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/modernizr.min-ck.js",
       "fileType" : 64
+    },
+    "\/img\/Be-Good-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/Be-Good-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/Be-Good-thumb.jpg",
+      "initialSize" : 34410,
+      "fileType" : 4096
     },
     "\/v1-archive\/scss\/_contact.scss" : {
       "ignoreWasSetByUser" : 0,
