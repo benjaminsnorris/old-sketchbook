@@ -156,6 +156,9 @@
       margin-bottom: 1.5rem;
     }
   }
+  #gallery {
+    margin: 0 auto;
+  }
   .main {
     .definition {
       color: hsl(0,0%,60%);
@@ -176,7 +179,8 @@
     }
   }
   .photo {
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
     padding: 0 .5rem;
     float: left;
     position: relative;

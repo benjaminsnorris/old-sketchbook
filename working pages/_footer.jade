@@ -9,7 +9,7 @@ script.
         e.preventDefault();
         window.location = $(this).attr("href");
       });
-    $('.gallery a').colorbox({rel:'gallery',returnFocus:false,maxWidth:"95%",maxHeight:"95%"});
+    $('.gallery a').not('a.button').colorbox({rel:'gallery',returnFocus:false,maxWidth:"95%",maxHeight:"95%"});
     $('#toggle').click(function(e) {
       var html = $('html');
       if(html.hasClass('flat')) {

@@ -81,4 +81,7 @@
     color: white;
     background-color: $red; 
   }  
+  @media screen and (max-width:31em) {
+    padding: .75em 1.25em;
+  }
 }

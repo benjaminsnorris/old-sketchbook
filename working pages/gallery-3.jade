@@ -1,0 +1,58 @@
+//- Variables for includes
+pageTitle = "Sketchnote Gallery | BSN Design"
+pageClass = "sketchnotes"
+
+include _head
+  body
+    #wrapper
+      nav
+        a#menu.icon-menu(href="#") Menu
+        a#sketchnotes.tab.left.current.icon-sketchnotes(href="/sketchnotes/") Sketchnotes
+        a#infographics.tab.icon-infographics(href="/infographics/") Infographics
+        a#design.tab.icon-design(href="/design/") Design
+        a#blog(href="/blog/") 
+          span.link.icon-blog Blog
+        a#contact.icon-contact(href="/contact/") Contact
+      section#book.cf
+        section#left.page
+          header
+            a#home(href="/") Home
+            h1 Gallery
+          .main.gallery
+            h2.gallery-group-title RWD Summit 2012 Sketchnotes
+            a.photo.gallery-photo-wide(href="/img/rwd-summit-2012/E4H-RWD-Summit-sketchnotes-1.jpg")
+              img(src="/img/rwd-summit-2012/E4H-RWD-Summit-sketchnotes-1-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/rwd-summit-2012/E4H-RWD-Summit-sketchnotes-2.jpg")
+              img(src="/img/rwd-summit-2012/E4H-RWD-Summit-sketchnotes-2-thumb.jpg")
+            h2.gallery-group-title LDS Tech Conference 2012
+            a.photo.gallery-photo-wide(href="/img/lds-tech-2012/LDS-Tech-2012-Sketchnotes-1.jpg")
+              img(src="/img/lds-tech-2012/LDS-Tech-2012-Sketchnotes-1-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/lds-tech-2012/LDS-Tech-2012-Sketchnotes-2.jpg")
+              img(src="/img/lds-tech-2012/LDS-Tech-2012-Sketchnotes-2-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/lds-tech-2012/LDS-Tech-2012-Sketchnotes-3.jpg")
+              img(src="/img/lds-tech-2012/LDS-Tech-2012-Sketchnotes-3-thumb.jpg")
+            .gallery-pagination.previous
+              a.button.icon-left(href="../page-2/") Previous Page
+        section#right.page
+          .main.gallery
+            h2.gallery-group-title General Sketchnotes
+            a.photo.gallery-photo-tall(href="/img/general/Wendy-Lea-Business-Sketchnote.jpg")
+              img(src="/img/general/Wendy-Lea-Business-Sketchnote-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/general/Wendy-Lea-Personal-Sketchnote.jpg")
+              img(src="/img/general/Wendy-Lea-Personal-Sketchnote-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/general/sketchnotes-next-thing-now-jan-2013.jpg")
+              img(src="/img/general/sketchnotes-next-thing-now-jan-2013-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/general/DC-NY-Trip-Sketchnotes-1.jpg")
+              img(src="/img/general/DC-NY-Trip-Sketchnotes-1-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/general/DC-NY-Trip-Sketchnotes-2.jpg")
+              img(src="/img/general/DC-NY-Trip-Sketchnotes-2-thumb.jpg")
+            a.photo.gallery-photo-tall(href="/img/general/AIPMM-Webinar-17-Apr-12-Sketchnotes.jpg")
+              img(src="/img/general/AIPMM-Webinar-17-Apr-12-Sketchnotes-thumb.jpg")
+            a.photo.gallery-photo-wide(href="/img/general/Dave-Crenshaw-lynda-sketchnotes.jpg")
+              img(src="/img/general/Dave-Crenshaw-lynda-sketchnotes-thumb.jpg")
+            .gallery-pagination
+              .previous
+                a.button.icon-left(href="../page-2/") Previous Page
+              .next
+                a.button.disabled.icon-right Next Page            
+    include _footer

@@ -193,6 +193,7 @@
 .sketchbook .button {
   text-decoration: none;
   padding: 1rem 2rem;
+  cursor: pointer;
   font-family: $sketchbook-text;
   color: #FFF;
   text-align: center;
@@ -200,7 +201,7 @@
   box-shadow: inset .1rem .1rem .25rem hsla(0,0%,100%,.2), 0 0 1rem rgba(0,0,0,0.2);
   border-radius: 1.25rem;
   @include single-transition($duration:.3s);
-  &:hover {
+  &:not(.disabled):hover {
     box-shadow: inset .1rem .1rem .25rem hsla(0,0%,100%,.2), 0 0 2rem $elastic;
   }
   &:before { display: none; }

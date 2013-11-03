@@ -1,0 +1,84 @@
+.gallery {
+  // These are already set, but I want to remember them
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start; // default: stretch
+}
+.gallery-group-title {
+  flex: 0 1 100%;
+  text-align: center;
+}
+.gallery-pagination {
+  flex: 0 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+  .next {
+    text-align: right;
+    flex-basis: 100%;
+  }
+}
+.sketchbook {
+  .gallery-group-title {
+    font-size: 1.5em;
+    padding-top: .5rem;
+  }  
+  .gallery-photo-tall {
+    flex: 0 1 5rem;
+  }
+  .gallery-photo-wide {
+    flex: 0 1 8rem;
+  }
+  .gallery-pagination {
+    padding-top: 1.5rem;
+  }
+  .disabled {
+    opacity: .2;
+    cursor: default;
+  }
+  #right .gallery-pagination .previous {
+    display: none;
+  }
+}
+.flat {
+  .gallery-group-title {
+    padding-top: 1em;
+  }  
+  .gallery-photo-tall {
+    flex: 0 1 7em;
+  }
+  .gallery-photo-wide {
+    flex: 0 1 12.5em;
+  }
+  .gallery-pagination {
+    padding-top: .5em;
+  }
+  .disabled {
+    opacity: .2;
+    cursor: default;
+    &:hover {
+      color: $text;
+      background-color: lighten($blue, 30%);
+    }
+  }
+  #right .gallery-pagination .previous {
+    display: none;
+  }
+  @media screen and (max-width: 60em) {
+    #left .gallery-pagination {
+      display: none;
+    }
+    #right .gallery-pagination .previous {
+      display: block;
+    }
+    .gallery-pagination > * {
+      flex-basis: 50%;
+    }
+  }
+  @media screen and (max-width: 30em) {
+    .gallery-pagination > * {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+}
