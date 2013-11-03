@@ -40,6 +40,10 @@
     display: none;
   }
 }
+.sketchnote-gallery {
+  #sketchnotes.tab:after { display: none; }
+  #book #left.page:before { display: none; }
+}
 .flat {
   .gallery-group-title {
     padding-top: 1em;
