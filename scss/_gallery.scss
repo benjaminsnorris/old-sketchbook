@@ -1,21 +1,48 @@
 .gallery {
-  // These are already set, but I want to remember them
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-around;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  // -moz-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start; // default: stretch
+  -webkit-justify-content: space-around;
+  // -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  justify-content: space-around;
+}
+.view-gallery {
+  width: 100%;
+  padding-top: 1em;
+  clear: left;
+  text-align: center;
 }
 .gallery-group-title {
-  flex: 0 1 100%;
+  width: 100%;
   text-align: center;
 }
 .gallery-pagination {
-  flex: 0 1 100%;
+  width: 100%;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   .next {
+    width: 100%;
     text-align: right;
-    flex-basis: 100%;
+  }
+}
+@-moz-document url-prefix() { 
+  .gallery {
+     display: block;
+  }
+  .gallery-pagination, .gallery-group-title {
+    display: block;
+    clear: left;
   }
 }
 .sketchbook {
@@ -24,10 +51,10 @@
     padding-top: .5rem;
   }  
   .gallery-photo-tall {
-    flex: 0 1 5rem;
+    width: 5rem;
   }
   .gallery-photo-wide {
-    flex: 0 1 8rem;
+    width: 8rem;
   }
   .gallery-pagination {
     padding-top: 1.5rem;
@@ -49,10 +76,10 @@
     padding-top: 1em;
   }  
   .gallery-photo-tall {
-    flex: 0 1 7em;
+    width: 7em;
   }
   .gallery-photo-wide {
-    flex: 0 1 12.5em;
+    width: 12.5em;
   }
   .gallery-pagination {
     padding-top: .5em;
@@ -76,12 +103,13 @@
       display: block;
     }
     .gallery-pagination > * {
-      flex-basis: 50%;
+      width: 50%;
+      float: left;
     }
   }
   @media screen and (max-width: 30em) {
     .gallery-pagination > * {
-      flex-basis: 100%;
+      width: 100%;
       text-align: center;
     }
   }

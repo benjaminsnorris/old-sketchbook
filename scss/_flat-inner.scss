@@ -63,11 +63,26 @@
         margin-left: .5em;
         margin-top: .5em;
       }
+      .main {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .photo {
+        width: auto;
+        max-width: 10em;
+      }
+      .two-up {
+        max-width: 18em;
+      }
       &#left section, &#left .section {
-        width: 47%;
-        margin: .5em;
-        display: inline-block;
-        vertical-align: top;
+          width: 47%;
+          margin: .5em;
+          display: inline-block;
+          vertical-align: top;
       }
     }
   }
@@ -84,6 +99,8 @@
         margin: 0 0 .5em;
         display: block;
       }
+      .photo { max-width: 9em; }
+      .two-up { max-width: 15.75em; }
     }
   }
   @media screen and (max-width: 31em) {
@@ -93,5 +110,10 @@
         font-size: 2em;
       }
     }
+  }
+}
+@-moz-document url-prefix() {
+  .flat #book .page .main {
+    display: block;
   }
 }

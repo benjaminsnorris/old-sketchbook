@@ -22,7 +22,7 @@ footer, .footer {
       &:hover {
         opacity: 1;
       }
-      &:before { display: inline; content: "\e006"; }
+      &:before { display: inline; content: $icon-grid; }
     }
   }
   @media screen and (max-width:31em) {

@@ -26,7 +26,7 @@
 @media screen and (max-width: 60em) {
   .flat nav a#menu { display: block; }
   .flat nav:not(.expanded) a {
-    text-indent: 100%;
+    text-indent: 200%;
     white-space: nowrap;
     overflow: hidden;
     width: 4em;
