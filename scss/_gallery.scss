@@ -17,6 +17,7 @@
 .view-gallery {
   width: 100%;
   padding-top: 1em;
+  // For Firefox who can't handle a flexbox
   clear: left;
   text-align: center;
 }
@@ -57,7 +58,7 @@
     width: 8rem;
   }
   .gallery-pagination {
-    padding-top: 1.5rem;
+    padding-top: .5rem;
   }
   .disabled {
     opacity: .2;
