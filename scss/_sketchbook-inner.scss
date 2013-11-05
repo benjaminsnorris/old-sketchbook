@@ -202,6 +202,10 @@
       box-shadow: .1rem .1rem .25rem hsla(0,0%,0%,.15);
       @include rotate(-5deg);
     }
+    &.one-up:before {
+      height: 8%;
+      top: -4%;
+    }
     // Drop Shadow
     &:after {
       content: '';
@@ -276,7 +280,7 @@
     display: none;
   }
 }
-.sketchbook.error {
+.sketchbook.error, .sketchbook.image {
   nav:before { right: -.2rem; }
   #book #left:before { display: none; }
 }

@@ -75,9 +75,8 @@
         width: auto;
         max-width: 10em;
       }
-      .two-up {
-        max-width: 18em;
-      }
+      .one-up { max-width: none; }
+      .two-up { max-width: 18em; }
       &#left section, &#left .section {
           width: 47%;
           margin: .5em;
@@ -100,6 +99,7 @@
         display: block;
       }
       .photo { max-width: 9em; }
+      .one-up { max-width: none; }
       .two-up { max-width: 15.75em; }
     }
   }
