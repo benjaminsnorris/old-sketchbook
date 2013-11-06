@@ -48,6 +48,11 @@
   .photo {
     float: left;
     padding: .5em;
+    // Don't show empty photos
+    display: none;
+    &[href] {
+      display: block;
+    }
     img {
       width: 100%;
       padding: .5em;
@@ -108,6 +113,38 @@
     .page {
       header #home, header h1 {
         font-size: 2em;
+      }
+    }
+  }
+}
+// Make the image detail full size
+@media screen and (min-width: 40em) {
+  .flat.image #book {
+    .page {
+      width: 100%;
+      padding: .5em;
+      header, .header { 
+        margin-left: .5em;
+        margin-top: .5em;
+      }
+      .main {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .photo {
+        width: auto;
+        max-width: 10em;
+      }
+      .one-up { max-width: none; }
+      &#right section, &#right .section {
+          width: 47%;
+          margin: .5em;
+          display: inline-block;
+          vertical-align: top;
       }
     }
   }

@@ -20,6 +20,8 @@
   // For Firefox who can't handle a flexbox
   clear: left;
   text-align: center;
+  h2 { margin-bottom: .5em; }
+  .flat & .button { margin-top: 0; }
 }
 .gallery-group-title {
   width: 100%;
