@@ -151,6 +151,6 @@
 }
 @-moz-document url-prefix() {
   .flat #book .page .main {
-    display: block;
+    display: block !important; // Override media query
   }
 }
