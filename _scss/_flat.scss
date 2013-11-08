@@ -22,7 +22,10 @@
       display: none;
     }
   }
-  .link { line-height: 1; }
+  .blog-link {
+    font-family: $flat-headline;
+    line-height: 1;
+  }
 }
 @media screen and (max-width: 60em) {
   .flat nav a#menu { display: block; }
