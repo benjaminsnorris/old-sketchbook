@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="sketchbook {{ page.page-classes }}">
+  <head>
+    <title>{{ page.page-title }}</title>
+    {{ page.custom-head-elements }}<!--[if lte IE 9]><script>document.documentElement.className='flat home';</script><![endif]-->
+    <script>
+      if(localStorage.skin === 'flat')
+       document.documentElement.className='flat {{ page.page-classes }}';
+    </script>
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}img/bsn-design-favicon.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px)" href="{{ site.baseurl }}img/startup.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="{{ site.baseurl }}img/startup-640x1096.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (orientation: portrait)" href="{{ site.baseurl }}img/startup-1536x2008.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (orientation: landscape)" href="{{ site.baseurl }}img/startup-2048x1496.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Walter+Turncoat|Short+Stack|Quicksand|Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/style.css">
+    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/css/ie8.css"><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css"><![endif]-->
+    <script src="{{ site.baseurl }}js/modernizr.min.js"></script>
+    <script>
+      var _gaq = _gaq || [];
+      var pluginUrl = 
+      '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+      _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+      _gaq.push(['_setAccount', 'UA-45487514-1']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <body>
+      <div id="wrapper">
+        <nav>
+          <a id="menu" href="#" class="icon-menu">Menu</a>
+          <a id="sketchnotes" href="/sketchnotes/" class="tab icon-sketchnotes {{page.sketchnotes-classes}}">Sketchnotes</a>
+          <a id="infographics" href="/infographics/" class="tab icon-infographics {{page.infographics-classes}}">Infographics</a>
+          <a id="design" href="/design/" class="tab icon-design {{page.design-classes}}">Design</a>
+          <a id="blog" href="/blog/" class="{{page.blog-classes}}">
+            <span class="link icon-blog">Blog</span>
+          </a>
+          <a id="contact" href="/contact/" class="icon-contact {{page.contact-classes}}">Contact</a>
+        </nav>

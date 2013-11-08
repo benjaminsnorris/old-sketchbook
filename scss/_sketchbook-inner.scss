@@ -10,10 +10,21 @@
     margin: 0;
     font-size: 2em;
   }
-  p {
+  p, time, span {
     font-family: $sketchbook-text;
     margin: 0;
   }
+  .link {
+    color: black;
+    &:hover {
+      background-color: $blue;
+      box-shadow: .25em 0 0 $blue,  
+                  -.25em 0 0 $blue;
+      border-radius: .25rem;
+      color: #FFF;
+      text-decoration: none;
+    }
+  }  
   #wrapper {
     width: 60rem;
     @include box-sizing(content-box);
@@ -164,17 +175,6 @@
     }
     section { 
       margin-bottom: 1.5rem; 
-    }
-    .link {
-      color: black;
-      padding: 0 .25rem;
-      margin: 0 -.25rem;
-      &:hover {
-        background-color: $blue;
-        border-radius: .25rem;
-        color: #FFF;
-        text-decoration: none;
-      }
     }
   }
   .photo {
