@@ -1,0 +1,24 @@
+---
+page-title: Blog | BSN Design
+page-classes: blog post
+---
+{% include head.html %}
+        <section id="blog-paper">
+          <header class="page-header"><a href="/" class="blog-logo"></a>
+            <div class="title">
+              <h1><span class="hidden">BSN Design </span>Blog</h1><a href="/blog" class="link">Back to Blog</a>
+            </div>
+          </header>
+          <article class="main">
+            <header class="post-header">
+              <h2>{{ page.title }}</h2>
+              <p class="meta">
+                <time>{{ page.date }}</time>
+              </p><span class="reading-time-container meta">Reading Time: <span class="reading-time">00:00</span></span>
+            </header>
+            <div class="main">
+              {{ content }}
+            </div>
+          </article>
+        </section>
+{% include foot.html %})

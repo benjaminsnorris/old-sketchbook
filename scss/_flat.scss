@@ -22,6 +22,7 @@
       display: none;
     }
   }
+  .link { line-height: 1; }
 }
 @media screen and (max-width: 60em) {
   .flat nav a#menu { display: block; }
@@ -57,7 +58,6 @@
     font-size: 2.5em;
     font-weight: normal;
     margin: 0;
-    display: inline-block;
   }
   h2 {
     font-family: $flat-headline;
@@ -65,8 +65,9 @@
     font-size: 1.5em;
     font-weight: normal;
   }
-  p, a {
+  p, a, span, time {
     font-family: $flat-text;
+    font-size: 100%;
   }  
 }
 .flat .button {
