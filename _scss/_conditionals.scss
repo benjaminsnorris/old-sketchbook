@@ -1,26 +1,26 @@
 .flat.no-svg {
   #blog-paper #blog-logo {
-    background-image: url($media-path + 'home.png');
+    background-image: url($base-path + 'img/home.png');
   }
   #book {
     #logo {
-      background-image: url($media-path + 'logo.png');
+      background-image: url($base-path + 'img/logo.png');
     }
     .page header #home {
-      background-image: url($media-path + 'home.png');
+      background-image: url($base-path + 'img/home.png');
     }
     #right {
       #contact-card {
-        background-image: url($media-path + 'card.png');
+        background-image: url($base-path + 'img/card.png');
       }
     }
     .social a {
-      background-image: url($media-path + 'twitter.png');
+      background-image: url($base-path + 'img/twitter.png');
       &.linkedin {
-        background-image: url($media-path + 'linkedin.png');
+        background-image: url($base-path + 'img/linkedin.png');
       }
       &.flickr {
-        background-image: url($media-path + 'flickr.png');
+        background-image: url($base-path + 'img/flickr.png');
       }
     }
   }

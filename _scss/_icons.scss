@@ -1,10 +1,10 @@
 @font-face {
   font-family: bsn-icons;
-  src: url("/fonts/bsn-icons.eot");
-  src: url("/fonts/bsn-icons.eot?#iefix") format('embedded-opentype'),
-       url("/fonts/bsn-icons.svg#bsn-icons") format('svg'), 
-       url("/fonts/bsn-icons.woff") format('woff'), 
-       url("/fonts/bsn-icons.ttf") format('truetype');
+  src: url($base-path + "/fonts/bsn-icons.eot");
+  src: url($base-path + "/fonts/bsn-icons.eot?#iefix") format('embedded-opentype'),
+       url($base-path + "/fonts/bsn-icons.svg#bsn-icons") format('svg'), 
+       url($base-path + "/fonts/bsn-icons.woff") format('woff'), 
+       url($base-path + "/fonts/bsn-icons.ttf") format('truetype');
   /* This should make the font use the normal weight for bold as well */
   font-weight: bold;
   font-style: normal;
