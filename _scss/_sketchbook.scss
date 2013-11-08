@@ -1,7 +1,7 @@
 :root.sketchbook {
   position: relative;
   background-color: #B87B4F;
-	background-image: url(/img/wood.jpg);
+	background-image: url($media-path + 'wood.jpg');
 	background-attachment: fixed;
 	font-size: 16px;
 	@media screen and (max-width: 1100px) {
@@ -183,7 +183,7 @@
   white-space: nowrap;
   overflow: hidden;
   cursor: default;
-  background: $sticker url(/img/logo.svg) no-repeat center center;
+  background: $sticker url($media-path + 'logo.svg') no-repeat center center;
   background-size: contain;
 	border-radius: 1.25rem;//20px
 }

@@ -4,4 +4,4 @@ _site
 
 # Exclude the media files that go to s3 #
 #########################################
-media
+_media

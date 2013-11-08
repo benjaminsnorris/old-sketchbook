@@ -140,7 +140,7 @@
         height: 4rem;
         font-size: 3em;
         color: transparent;
-        background: url(/img/home.svg) no-repeat center center;
+        background: url($media-path + 'home.svg') no-repeat center center;
         background-size: contain;
         margin-right: 1rem;
       }

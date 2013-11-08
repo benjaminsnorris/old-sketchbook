@@ -1,0 +1,30 @@
+.flat.no-svg {
+  #blog-paper #blog-logo {
+    background-image: url($media-path + 'home.png');
+  }
+  #book {
+    #logo {
+      background-image: url($media-path + 'logo.png');
+    }
+    .page header #home {
+      background-image: url($media-path + 'home.png');
+    }
+    #right {
+      #contact-card {
+        background-image: url($media-path + 'card.png');
+      }
+    }
+    .social a {
+      background-image: url($media-path + 'twitter.png');
+      &.linkedin {
+        background-image: url($media-path + 'linkedin.png');
+      }
+      &.flickr {
+        background-image: url($media-path + 'flickr.png');
+      }
+    }
+  }
+}
+.no-cssgradients footer #toggle {
+  display: none;
+}

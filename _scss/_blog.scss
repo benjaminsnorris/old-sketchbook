@@ -15,7 +15,7 @@
     height: 10.5em;
     width: 5rem;
     height: 8rem;
-    background: transparent url(/img/logo.svg) no-repeat center center;
+    background: transparent url($media-path + 'logo.svg') no-repeat center center;
     background-size: contain;
     text-decoration: none;
     text-indent: 100%;

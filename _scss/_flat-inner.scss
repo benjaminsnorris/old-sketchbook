@@ -27,7 +27,7 @@
         color: transparent;
         font-size: 2.5em;
         margin-right: .5em;
-        background: url(/img/home.svg) no-repeat center center;
+        background: url($media-path + 'home.svg') no-repeat center center;
         background-size: contain;
       }
       h1 { display: inline-block; }

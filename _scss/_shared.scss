@@ -19,13 +19,13 @@
 .social {
   text-align: center;
   a {
-    background: transparent url(/img/twitter.svg) no-repeat center center;
+    background: transparent url($media-path + 'twitter.svg') no-repeat center center;
     background-size: contain;
     &.linkedin {
-      background-image: url(/img/linkedin.svg);
+      background-image: url($media-path + 'linkedin.svg');
     }
     &.flickr {
-      background-image: url(/img/flickr.svg);
+      background-image: url($media-path + 'flickr.svg');
     }
   }
 }

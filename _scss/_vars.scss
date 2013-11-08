@@ -1,5 +1,6 @@
+$media-path: '../img/';
 $cover: #050505;
-$noise: url(/img/noise.png);
+$noise: url($media-path + 'noise.png');
 $sticker: #FFF;
 $paper: #FBEFE1;
 $paper-dark: #F2CB9B;
