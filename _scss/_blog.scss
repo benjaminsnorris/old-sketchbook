@@ -2,9 +2,6 @@
   font-size: 100%;
 }
 .blog {
-  #blog-paper {
-    padding: 0 1em;
-  }
   .page-header {
     @include flex;
     @include align-items(center, center);
@@ -97,6 +94,9 @@
     }
   }
   &.flat {
+    #blog-paper {
+      padding: 0 1em;
+    }
     .title a { display: none; }
     .post-header {
       h2 {
