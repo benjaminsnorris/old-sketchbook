@@ -28,7 +28,9 @@
             e.preventDefault();
             $('nav').toggleClass('expanded');
           });
+          {{ page.readyScript }}
         });
+        {{ page.functionScript }}
       </script>
     </body>
   </head>

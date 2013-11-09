@@ -5,6 +5,8 @@ page-classes: image
 sketchnotes-classes: left
 infographics-classes: left
 design-classes: left
+readyScript: 'var pic=getQueryVariable("id");if(pic!=false){pic="//media.bsn.io/img/"+pic;$("#link").attr("href",pic);$("#image").attr("src",pic)}'
+functionScript: 'function getQueryVariable(e){var t=window.location.search.substring(1);var n=t.split("&");for(var r=0;r<n.length;r++){var i=n[r].split("=");if(i[0]==e){return i[1]}}return false}'
 ---
         <section id="book" class="cf">
           <section id="left" class="page">
