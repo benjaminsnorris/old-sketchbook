@@ -2,4 +2,4 @@ paginate: 5
 paginate_path: blog/page-:num
 permalink: /blog/posts/:title
 media_path: //media.bsn.io/img/
-baseurl: /bsn-design-site
+baseurl: ''
