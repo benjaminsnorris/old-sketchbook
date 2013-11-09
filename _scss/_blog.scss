@@ -94,6 +94,9 @@
     }
   }
   &.flat {
+    #blog-paper {
+      padding: 1em;
+    }
     .title a { display: none; }
     .post-header {
       h2 {
