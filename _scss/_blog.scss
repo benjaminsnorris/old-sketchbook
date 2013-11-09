@@ -48,6 +48,9 @@
     text-align: center;
   }
   &.sketchbook {
+    #wrapper {
+      padding: 0 1em;
+    }
     nav {
       display: none;
     }
