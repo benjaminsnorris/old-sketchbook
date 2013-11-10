@@ -16,7 +16,7 @@ blog-classes: current
                 <h2 class="post-snippet-title">
                   <a class="link post-link" href="{{ post.url }}">{{ post.title }}</a>
                 </h2>
-                <time class="meta">{{ post.date }}</time>
+                <time class="meta">{{ post.date | date_to_string }}</time>
               </div>
             {% endfor %}
           </div>

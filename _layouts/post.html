@@ -1,6 +1,7 @@
 ---
 page-title: Blog | BSN Design
 page-classes: blog post
+readyScript: var words=parseInt($('#words').html()),time=Math.ceil(words/225);$("#reading-time").html(time)
 ---
 {% include head.html %}
         <section id="blog-paper">
@@ -13,12 +14,14 @@ page-classes: blog post
             <header class="post-header">
               <h2>{{ page.title }}</h2>
               <p class="meta">
-                <time>{{ page.date }}</time>
-              </p><span class="reading-time-container meta">Reading Time: <span class="reading-time">00:00</span></span>
+                <time>{{ page.date | date_to_string }}</time>
+              </p>
+              <p class="meta">Reading Time: <span id="reading-time">0</span> minutes</p>
+              <p class="meta hide">Words: <span id="words">{{ page.content | number_of_words }}</span></p>
             </header>
             <div class="main">
               {{ content }}
             </div>
           </article>
         </section>
-{% include foot.html %})
+{% include foot.html %}

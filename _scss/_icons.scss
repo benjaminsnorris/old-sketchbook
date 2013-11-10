@@ -54,12 +54,18 @@ $icon-grid: "\e608";
   content: "\e60d";
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
-  // display:inline-block;
+[class*="icon-"] {
   position: relative;
   &:before {
-    font-family: bsn-icons;
+    font-family: 'bsn-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
     margin: 0 .5em 0 0;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }

@@ -11,14 +11,14 @@ blog-classes: current
             </div>
           </header>
           <div class="main">
-            <p>Welcome to the BSN Design Blog. Here is the list of most recent posts.</p>
             {% for post in paginator.posts %}
               <article class="post-snippet">
                 <header class="post-header">
-                  <h2><a class="link post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
-                  <time class="meta">{{ post.date }}</time>
+                  <h2><a class="link post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                  <time class="meta">{{ post.date | date_to_string }}</time>
                 </header>
                 {{ post.excerpt }}
+                <a class="link continue-link icon-right" href="{{ site.baseurl }}{{ post.url }}">Continue reading</a>
               </article>
             {% endfor %}
             <div class="archives">
