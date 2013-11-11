@@ -119,6 +119,9 @@
     &:before { display: none; }
   }
 }
+.sketchbook.home #blog .blog-link {
+  position: relative;
+}
 .sketchbook #contact {
   position: absolute;
   width: 21rem;
