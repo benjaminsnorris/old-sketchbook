@@ -1,6 +1,9 @@
 :root.flat {
   background-color: lighten($blue, 45%);
 }
+html.flat {
+  font-size: 100%;
+}
 .flat nav {
   display: table;
   padding: .25em;
@@ -13,6 +16,7 @@
     font-family: $flat-headline;
     padding: 1em 2em;
     margin: .5em;
+    line-height: 1.2;
     background-color: $blue;
     &:hover {
       color: white;

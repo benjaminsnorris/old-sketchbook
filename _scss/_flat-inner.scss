@@ -14,6 +14,17 @@
     }
   }  
 }
+.flat {
+  #home {
+    display: inline-block;
+    color: transparent;
+    font-size: 2.5em;
+    margin-right: .5em;
+    background: url($base-path + 'img/home.svg') no-repeat center center;
+    background-size: contain;
+  }
+  h1 { display: inline-block; }
+}
 .flat #book {
   max-width: 60em;
   .page {
@@ -22,15 +33,6 @@
     padding: 1em;
     header, .header {
       margin-bottom: 1.5em;
-      #home {
-        display: inline-block;
-        color: transparent;
-        font-size: 2.5em;
-        margin-right: .5em;
-        background: url($base-path + 'img/home.svg') no-repeat center center;
-        background-size: contain;
-      }
-      h1 { display: inline-block; }
     }
     section, .section {
       clear: left;
