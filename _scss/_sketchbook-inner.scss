@@ -17,9 +17,9 @@
   .link {
     color: black;
     &:hover {
-      background-color: $blue;
-      box-shadow: .25em 0 0 $blue,  
-                  -.25em 0 0 $blue;
+      background-color: $elastic;
+      box-shadow: .25em 0 0 $elastic,  
+                  -.25em 0 0 $elastic;
       border-radius: .25rem;
       color: #FFF;
       text-decoration: none;

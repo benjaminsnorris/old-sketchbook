@@ -6,9 +6,9 @@
   .link {
     color: black;
     &:hover {
-      background-color: $red;
-      box-shadow: .25em 0 0 $red,  
-                  -.25em 0 0 $red;
+      background-color: $blue;
+      box-shadow: .25em 0 0 $blue,  
+                  -.25em 0 0 $blue;
       color: #FFF;
       text-decoration: none;
     }
