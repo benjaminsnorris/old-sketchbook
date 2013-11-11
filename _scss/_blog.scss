@@ -145,6 +145,7 @@
     }
     #home {
       margin-right: .25em;
+      font-size: 2em;
     }
     #blog-paper {
       padding: 1em;
@@ -163,14 +164,18 @@
         font-size: 1.5em;
       }
     }
-    .title a { display: none; }
+    .title {
+      h1 { font-size: 2em; }
+      a { display: none; }
+    }
     .post-header {
       h2 {
         margin-bottom: 0;
+        font-size: 1.5em;
       }
       a {
           font-family: $flat-headline;
       }
-    }  
+    } 
   }
 }
