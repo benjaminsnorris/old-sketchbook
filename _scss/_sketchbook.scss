@@ -209,5 +209,5 @@
   &:not(.disabled):hover {
     box-shadow: inset .1rem .1rem .25rem hsla(0,0%,100%,.2), 0 0 2rem $elastic;
   }
-  &:before { display: none; }
+  // &:before { display: none; }
 }
