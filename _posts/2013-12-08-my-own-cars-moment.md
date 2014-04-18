@@ -2,7 +2,7 @@
 layout: post
 title: My own Cars moment
 ---
-Anyone who has ever searched for something related to web development has run into Chris. He runs the blog [CSS-Tricks](http://css-tricks.com), as well as [Code Pen](http://codepen.io), and the podcast [Shop Talk Show](http://shoptalkshow.com). He's like your own personal Mr. Miyagi in a can—always available to pop out when you need advice. He's become one of my heroes as he has unknowingly become something of a mentor on my path to front-end web development competence.
+Anyone who has ever searched for something related to web development has run into Chris. He runs the blog [CSS-Tricks](http://css-tricks.com), as well as [Code Pen](http://codepen.io), and the podcast [Shop Talk Show](http://shoptalkshow.com). He's like your own personal Mr. Miyagi in a can—always available to pop out when you need advice. He is now one of my heroes as he has unknowingly become something of a mentor on my path to front-end web development competence.
 
 <p class="photo post-image-s post-image-right"><img src="//media.bsn.io/img/shop-talk/Shop-Talk-Sketchnotes-17-Oct-2013-thumb.jpg" alt="Sketchnote of a recent Shop Talk Show Episode"></p>
 
