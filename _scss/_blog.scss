@@ -126,6 +126,9 @@
         padding: 1.75em;
       }
     }
+    .title a {
+      font-family: $sketchbook-headline;
+    }
   }
   &.flat {
     p, time, a {

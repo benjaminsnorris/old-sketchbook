@@ -3,7 +3,7 @@
     background-color: $light-blue;
 }
 .flat {
-  .link {
+  .link, article a {
     color: black;
     &:hover {
       background-color: $blue;
