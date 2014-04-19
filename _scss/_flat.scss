@@ -48,8 +48,8 @@ html.flat {
 }
 @media screen and (max-width: 31em) {
   .flat nav:not(.sketchbook) a {
-    margin: .25em;
     padding: .75em;
+    margin: .25em;
   }
   .flat nav:not(.expanded) a {
     width: 2.5em;
