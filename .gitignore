@@ -1,7 +1,11 @@
-# Exclude the generated site #
-##############################
+# Exclude the compiled site #
+#############################
 _site
 
 # Exclude the media files that go to s3 #
 #########################################
 _media
+
+# Exclude the s3_website config #
+#################################
+s3_website.yml
