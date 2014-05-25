@@ -1,8 +1,8 @@
 .gallery {
-  @include flex;
-  @include flex-wrap;
-  @include align-items; // flex-start
-  @include justify-content; //space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 .view-gallery {
   width: 100%;
@@ -19,8 +19,8 @@
 }
 .gallery-pagination {
   width: 100%;
-  @include flex;
-  @include flex-wrap;
+  display: flex;
+  flex-wrap: wrap;
   .next {
     width: 100%;
     text-align: right;

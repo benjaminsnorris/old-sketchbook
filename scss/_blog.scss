@@ -3,8 +3,8 @@
 }
 .blog {
   .page-header {
-    @include flex;
-    @include align-items(center, center);
+    display: flex;
+    align-items: center;
     margin-bottom: 1em;
   }
   .title {
@@ -72,6 +72,8 @@
       }  
     }
     #home.blog-logo {
+      display: block;
+      color: transparent;
       width: 5rem;
       height: 8rem;
       margin-right: .5rem;
@@ -89,7 +91,7 @@
       padding: 1em;
       border-radius: .1875rem;//3px;
       background-color: $legal;
-      @include background-image(linear-gradient($legal-line 1px, transparent 1px));
+      background-image: linear-gradient($legal-line 1px, transparent 1px);
       background-size: 100% 1.3em;
       // background-position: 0 .6em;
       background-origin: content-box;
@@ -103,7 +105,7 @@
         top: -.25rem;
         left: 0;
         background-color: $legal;
-        @include background-image(linear-gradient($legal-line 1px, transparent 1px));
+        background-image: linear-gradient($legal-line 1px, transparent 1px);
         background-size: 100% 1.2em;
         background-position: 0 .6em;
         background-origin: content-box;
@@ -111,13 +113,13 @@
       }
       &:before {
         z-index: -1;
-        @include rotate(1deg);
-        @include apply-origin(0% 100%,false);
+        transform: rotate(1deg);
+        transform-origin: 0% 100%;
       }
       &:after {
         z-index: -2;
-        @include rotate(-1deg);
-        @include apply-origin(100% 100%,false);
+        transform: rotate(-1deg);
+        transform-origin: 100% 100%;
       }
       @media screen and (min-width: $mq-book-text-small) {
         padding: 1.5em;

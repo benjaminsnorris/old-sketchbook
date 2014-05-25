@@ -8,5 +8,11 @@ html.flat {
   margin-left: auto;
   margin-right: auto;
 }
+.flat #book {
+  #logo {
+    padding-top: 9em;
+    color: $blue;
+  }
+}
 .hidden { display: none; }
 .flat.contact #book #left .main { display: none; }
