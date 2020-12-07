@@ -1,8 +1,3 @@
----
-page-title: Blog | BSN Design
-page-classes: blog post
-readyScript: var words=parseInt($('#words').html()),time=Math.ceil(words/225);$("#reading-time").html(time)
----
 {% include head.html %}
         <section id="blog-paper">
           <header class="page-header"><a href="{{ site.baseurl }}/" class="blog-logo" id="home">Home</a>
@@ -16,8 +11,6 @@ readyScript: var words=parseInt($('#words').html()),time=Math.ceil(words/225);$(
               <p class="meta">
                 <time>{{ page.date | date_to_string }}</time>
               </p>
-              <p class="meta">Reading Time: <span id="reading-time">0</span> minutes</p>
-              <p class="meta hide">Words: <span id="words">{{ page.content | number_of_words }}</span></p>
             </header>
             <div class="main">
               {{ content }}

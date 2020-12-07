@@ -1,10 +1,12 @@
 ---
 layout: post
 title: My own Cars moment
+page-title: Blog | BSN Design
+page-classes: blog post
 ---
 Anyone who has ever searched for something related to web development has run into Chris. He runs the blog [CSS-Tricks](http://css-tricks.com), as well as [Code Pen](http://codepen.io), and the podcast [Shop Talk Show](http://shoptalkshow.com). He's like your own personal Mr. Miyagi in a can—always available to pop out when you need advice. He is now one of my heroes as he has unknowingly become something of a mentor on my path to front-end web development competence.
 
-<p class="photo post-image-s post-image-right"><img src="http://media.bsn.io/img/shop-talk/Shop-Talk-Sketchnotes-17-Oct-2013-thumb.jpg" alt="Sketchnote of a recent Shop Talk Show Episode"></p>
+<p class="photo post-image-s post-image-right"><img src="{{ site.media_path }}shop-talk/Shop-Talk-Sketchnotes-17-Oct-2013-thumb.jpg" alt="Sketchnote of a recent Shop Talk Show Episode"></p>
 
 He was scheduled to be the second keynote address at the recent CSS Dev Conference, which I was invited to sketchnote. One of my goals in attending that conference was to meet [Zoe Gillenwater](https://twitter.com/zomigi), which I [wrote about]({% post_url 2013-12-07-meeting-your-heroes %}) recently. My other goal was to meet Chris Coyier. I started listening to and sketchnoting episodes of the Shop Talk Show a few weeks prior to the conference. One of huge interesting side effects of listening to someone over the course of a few hours is that you feel like you get to know them a bit. So I was excited to meet the man behind the voice.
 
