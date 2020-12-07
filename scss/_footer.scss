@@ -1,5 +1,5 @@
 html, body { height: 100%; }
-.sketchbook #wrapper, .flat #wrapper {
+.sketchbook #wrapper {
   min-height: 100%;
   margin-bottom: -5.25em;
   &:after {
@@ -12,10 +12,6 @@ footer, .footer {
   height: 5.25em;
   position: relative;
   z-index: 10;
-  .flat & {
-    max-width: 60em;
-    margin: 0 auto;
-  }
   .sketchbook & {
 
   }
@@ -50,21 +46,5 @@ footer, .footer {
   }
   @media screen and (max-width:31em) {
     padding-top: .5em;
-    #gallery {
-      .flat & {
-        padding: .75em;
-        &:not(.expanded) {
-          text-indent: 200%;
-          white-space: nowrap;
-          overflow: hidden;
-          width: 2.5em;
-          &:before, [class*="icon-"]:before {
-            text-indent: 0;
-            float: left;
-            margin-right: 0;
-          }
-        }
-      }
-    }
   }
 }
