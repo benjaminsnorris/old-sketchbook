@@ -2,6 +2,11 @@ $mq-book-text-small: 38em;
 $mq-book-text-med: 48em;
 $mq-book-text-large: 55em;
 
+$mq-flat-xsmall: 25em;
+$mq-flat-text-small: 31em;
+$mq-flat-text-med: 40.5em;
+$mq-flat-text-large: 48em;
+
 $base-path: '../';
 $cover: #050505;
 $noise: url($base-path + 'img/noise.png');
@@ -23,3 +28,13 @@ $envelope: #FFF;
 $envelope-shadow: 0 0 .625rem hsla(0,0%,0%,.5);//10px
 $letter: #F0F0F0;
 
+// Flat Vars
+$border: #fff;
+$text: #000;
+$green: #14BB8D;
+$red: #BB304E;
+$orange: #E13D0C;
+$yellow: #FAEE1A;
+$light-blue: #15C3C5;
+$flat-headline: Quicksand, 'Lucida Grande', sans-serif;
+$flat-text: 'Open Sans', sans-serif;

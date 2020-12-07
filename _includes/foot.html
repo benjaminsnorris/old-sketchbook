@@ -1,4 +1,7 @@
       </div>
+      <footer>
+        <a id="toggle" href="#top" class="button icon-sketchbook">Change theme</a>
+      </footer>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/jquery-1.10.2.min.js"><\/script>')</script>
       <script src="{{ site.baseurl }}/js/jquery.colorbox-min.js"></script>
@@ -10,6 +13,18 @@
           //     window.location = $(this).attr("href");
           // });
           $('.gallery a.photo').colorbox({rel:'gallery',returnFocus:false,maxWidth:"95%",maxHeight:"95%"});
+          $('#toggle').click(function(e) {
+            var html = $('html');
+            if(html.hasClass('flat')) {
+              html.addClass('sketchbook').removeClass('flat');
+              localStorage.skin = "sketchbook";
+              _gaq.push(['_trackEvent', 'Skin', 'Switch to Sketchbook']);
+            } else {
+              html.addClass('flat').removeClass('sketchbook');
+              localStorage.skin = "flat";
+              _gaq.push(['_trackEvent', 'Skin', 'Switch to Flat']);
+            }
+          });
           $('#menu').click(function(e) {
             e.preventDefault();
             $('nav, #gallery').toggleClass('expanded');
